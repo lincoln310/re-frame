@@ -1,5 +1,4 @@
-# re-frame: Derived Values, Flowing
-
+# re-frame: 数据驱动，数据流
 
 > This, milord, is my family's axe. We have owned it for almost nine hundred years, see. Of course,
 sometimes it needed a new blade. And sometimes it has required a new handle, new designs on the
@@ -9,17 +8,12 @@ y'know. Pretty good.
 
 > -- Terry Pratchett, The Fifth Elephant
 
-## Why Should You Care About re-frame?
+## 我们为什么应该关注re-frame？
 
-Either:
+任何一个原因都足够了：
 
-1.  You want to develop an [SPA] in ClojureScript, and you are looking for a framework; or
-2.  You believe that, by early 2015, ReactJS had won the JavaScript framework wars and
-    you are curious about the bigger implications. Is the combination of
-    `reactive programming`, `functional programming` and `immutable data` going to
-    **completely change everything**?  And, if so, what would that look like in a language
-    that embraces those paradigms?
-
+1.  你在寻找一个框架，帮助你用ClojureScript构建一个[SPA]；或者
+2.  你相信，在2015年，reacteJs赢得了JS框架大战的胜利，并且你对其产生的更大的影响感到好奇。‘reactive programming’，‘functional programming’和‘immutable data'的结合能否**完全改变一切**？如果能，包含了这些范式的语言又是什么样子的呢？
 
 ## re-frame
 

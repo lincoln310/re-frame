@@ -17,17 +17,24 @@ y'know. Pretty good.
 
 ## re-frame
 
-re-frame is a pattern for writing [SPAs] in ClojureScript, using [Reagent].
+re-frame is a pattern for writing [SPAs] in ClojureScript, using [Reagent].  
+re-frame是基于Reagent，使用ClojureScript编写SPAs的“模式”。
 
-This repo contains both a **description of this pattern** and a **reference implementation**.
+This repo contains both a **description of this pattern** and a **reference implementation**.  
+该repo包含了该模式的描述和参考性的实现
 
-To quote McCoy: "It's MVC, Jim, but not as we know it".
+To quote McCoy: "It's MVC, Jim, but not as we know it".  
+引用McCoy的话：“Jim，这是MVC， 但是和大家认识的MVC不一样”。
 
 To build a re-frame app, you:
  - design your app's data structure (data layer)
+ - 设计app的数据结构（数据层）
  - write and register subscription functions (query layer)
+ - 编写和注册订阅函数（query层）
  - write Reagent component functions  (view layer)
+ - 编写Reagent组件函数（view层）
  - write and register event handler functions  (control layer and/or state transition layer)
+ - 编写和注册事件处理函数（控制层and／or状态转换层）
 
 Features:
 

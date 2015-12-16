@@ -42,8 +42,11 @@ Features:
    be described, understood and tested independently.
    You won't need sophisticated Dependency Injection to test. So much
    incidental complexity evaporates.
+   这些函数都是纯函数，所以每一个计算单元都可以单独编写描述，理解和测试。
+   无需复杂的依赖注入测试，从而让很多复杂度消失了。
 2. These computational parts are composed via reactive data flows - a dynamic,
    unidirectional Signal graph.
+   计算部分通过reactive数据流（一个动态的，单向的信号图）联系在一起，
 3. The resulting architecture involves "derived data" flowing in a two-stage, reactive loop.
    Without realising it, you will be explicitly modelling time.
 4. It is fast, straight out of the box. You won't have to go through [this sort of pain](http://blog.scalyr.com/2013/10/angularjs-1200ms-to-35ms/).
